@@ -1,0 +1,47 @@
+.mainContainer {
+  display: flex;
+}
+
+.Container {
+  border: 1px solid #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 350px;
+  /* box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  margin-top: 40px;
+  margin-left: 90px;
+}
+
+.jobtype {
+  margin-left: 30px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.jobProfile {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.listelem {
+  color: gray;
+}
+.l_img {
+  width: 60px;
+  height: 60px;
+}
+
+.cardlogo {
+  margin-top: 70px;
+  margin-left: 25px;
+}
+
+.text {
+  margin-left: 10px;
+}
+
+.mainContainer:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

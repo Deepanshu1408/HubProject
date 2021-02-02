@@ -1,0 +1,39 @@
+.caroMainContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.caroContainer {
+  border: 3px solid #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+  margin-left: 60px;
+  background-color: white;
+}
+
+.logo {
+  height: 70px;
+  width: 70px;
+}
+
+.companyName {
+  margin-left: 20px;
+}
+
+.description {
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+
+.jobtype {
+  font-size: 16px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
