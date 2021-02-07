@@ -4,11 +4,12 @@
   width: 100%;
   position: relative;
   margin: 0px;
+  padding-top: 10px;
 }
 
 .mainImg {
-  height: 550px;
-  width: 69%;
+  height: 570px;
+  width: 69.3%;
   margin-left: 544px;
   margin-top: -30px;
   position: absolute;
@@ -132,9 +133,9 @@
   margin-left: 850px;
 }
 .section3 {
-  background-color: purple;
-  margin-top: 20px;
-  height: 500px;
+  background-color: #bf53ed;
+  margin-top: 40px;
+  height: 550px;
 }
 
 .section3Heading {

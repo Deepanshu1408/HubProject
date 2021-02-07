@@ -5,11 +5,13 @@ import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 const Navbar = () => {
   return (
     <nav className="mainNavbar">
-      <img
-        src="https://thehub.io/_nuxt/aaf6a69b0d671601fe5044c0a4d90ffd.svg"
-        className="logo"
-        alt=""
-      />
+      <div className="mainlogo">
+        <img
+          src="https://thehub.io/_nuxt/164db33c3d5c8e1fcf4d94b65b0da148.svg"
+          className="logo"
+          alt=""
+        />
+      </div>
       <div className="navbarTabs">
         <a href="#">
           <span className="tab1">Find Jobs</span>
